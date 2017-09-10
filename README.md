@@ -9,7 +9,8 @@
 Project realised in two weeks with Emilien Grude, Thibaud Serre, Quentin Boucher and Thomas Chantelose. I wrote all the code for this project.  
 Super Galaxy Contest was made for the [Virtual Fantasy contest] (https://www.laval-virtual.org/en/prices-competitions/virtual-fantasy/presentation-vf-en.html)at Laval Virtual 2016 exhibition, and was awarded with the price of Interaction.
 
-You can watch the [trailer on YouTube](https://www.youtube.com/watch?v=ZEY9-iThG5E).
+You can watch the [trailer on YouTube](https://www.youtube.com/watch?v=ZEY9-iThG5E).  
+You can also find more artwork on [Emilien Grude's Artstation](https://www.artstation.com/artwork/RzZrv)
 
 ## The game
 In short, Super Galaxy Contest is a football game played with two players in each team, with a bit of "Capture the Flag".  
@@ -53,10 +54,10 @@ The "Ready" mark in the center becomes white when the current player becomes rea
 ![Alt text](Illustrations/SGC-Dirigible_view.png)
 
 - Roamer view (UI turned off):
-![Alt text](Illustrations/SGC-Roamer.png)
+![Alt text](Illustrations/SGC-Roamer.jpg)
 
 - Snooper view (UI turned off):
-![Alt text](Illustrations/SGC-Snooper.png)
+![Alt text](Illustrations/SGC-Snooper.jpg)
 
 ## Networking
 The biggest challenge for me in this project was the networking. I just discovered UNet (with the [SuperDwarves Tavern Championship](https://github.com/Zelgunn/SuperDwarves-Tavern-Championship) project).  
