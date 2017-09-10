@@ -28,8 +28,8 @@ Each player is the team has a unique role, a player can either be the "Snooper" 
 	*Roamers can only use one special ability per flag brought home by Snoopers.
 
 - Points are received by:
-1) Scoring a goal (5 points)
-2) Bringing a flag home (1 point)
+	1) Scoring a goal (5 points)
+	2) Bringing a flag home (1 point)
 
 ## Requirements
 While Unity is required to run this game, hardware is the biggest requirement.  
@@ -61,14 +61,13 @@ The "Ready" mark in the center becomes white when the current player becomes rea
 ## Networking
 The biggest challenge for me in this project was the networking. I just discovered UNet (with the [SuperDwarves Tavern Championship](https://github.com/Zelgunn/SuperDwarves-Tavern-Championship) project).  
 There were three difficulties:  
-	1) Which computer has authority on the ball (computers with authority decides how the ball behaves with physics)  
-		* This problem was solved by giving authority to the last team that hit the ball  
-		* We used one computer for two players, reducing the amount of networking required  
-	2) Make a lobby that setups itself automatically and quickly (this game was made for an exhibition).  
-		* Setup files were given to each computers, giving them all the informations they needed to connect  
-		* We used a separate router, with ethernet, to ensure reliability at the exhibition  
-		* We used broadcasting, to allow clients to discover the server automatically  
-	3) Synchronizing player states  
-		* We used components built-in Unity but we still had jitters sometimes, mostly on the server.  
-		* This includes animations, positions, state (tackling, running, traped, ...)  
-	
+1) Which computer has authority on the ball (computers with authority decides how the ball behaves with physics):
+	* This problem was solved by giving authority to the last team that hit the ball
+	* We used one computer for two players, reducing the amount of networking required
+2) Make a lobby that setups itself automatically and quickly (this game was made for an exhibition):
+	* Setup files were given to each computers, giving them all the informations they needed to connect
+	* We used a separate router, with ethernet, to ensure reliability at the exhibition
+	* We used broadcasting, to allow clients to discover the server automatically
+3) Synchronizing player states:
+	* We used components built-in Unity but we still had jitters sometimes, mostly on the server.
+	* This includes animations, positions, state (tackling, running, traped, ...)
