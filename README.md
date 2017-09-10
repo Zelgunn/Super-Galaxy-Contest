@@ -50,13 +50,13 @@ White marks become pink or blue (color depends on the team) when players are rea
 The "Ready" mark in the center becomes white when the current player becomes ready.
 ![Alt text](Illustrations/SGC-Lobby.png)
 
-- Spectator view :
+- Spectator view:
 ![Alt text](Illustrations/SGC-Dirigible_view.png)
 
-- Roamer view (UI turned off):
+- Roamer view:
 ![Alt text](Illustrations/SGC-Roamer.jpg)
 
-- Snooper view (UI turned off):
+- Snooper view:
 ![Alt text](Illustrations/SGC-Snooper.jpg)
 
 ## Networking
