@@ -45,19 +45,22 @@ You will need:
 
 ## Illustrations
 
-- The lobby :
-White marks become pink or blue (color depends on the team) when players are ready.
-The "Ready" mark in the center becomes white when the current player becomes ready.
-![Alt text](Illustrations/SGC-Lobby.png)
-
-- Spectator view:
-![Alt text](Illustrations/SGC-Dirigible_view.png)
+- User interface:
+![Alt text](Illustrations/SGC_UI.jpg)
 
 - Roamer view:
 ![Alt text](Illustrations/SGC-Roamer.jpg)
 
 - Snooper view:
 ![Alt text](Illustrations/SGC-Snooper.jpg)
+
+- Spectator view:
+![Alt text](Illustrations/SGC-Dirigible_view.png)
+
+- The lobby :
+White marks become pink or blue (color depends on the team) when players are ready.
+The "Ready" mark in the center becomes white when the current player becomes ready.
+![Alt text](Illustrations/SGC-Lobby.png)
 
 ## Networking
 The biggest challenge for me in this project was the networking. I just discovered UNet (with the [SuperDwarves Tavern Championship](https://github.com/Zelgunn/SuperDwarves-Tavern-Championship) project).  
